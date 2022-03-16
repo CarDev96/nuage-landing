@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+}
+
+nav {
+    background-color: #00c2b1;
+    .tb_head {
+        margin-left: 0px;
+        color: #4e5256 !important;
+        width: 100%;
+    }
+    @media (max-width: 640px) {
+        .tb_head {
+            display: none !important;
+        }
+    }
+}
+
+#navAction {
+  background-color: #ef0f88;
+}
+
+.more-info {
+  font-family: "Montserrat";
+  background-image: url(/images/info/1.png);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.banner_salon {
+  font-family: "Montserrat";
+  background-image: url(/images/banner_salon/1.png);
+  background-size: cover;
+	min-height: 550px;
+  background-position-x: center;
+}
+
+.description {
+  font-family: "Montserrat";
+  background-image: url(/images/description/back-t.png);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.banner_spa {
+  font-family: "Montserrat";
+  background-image: url(/images/spa/1.png);
+  background-size: cover;
+	min-height: 550px;
+  background-position-x: center;
+}
+
+.job {
+  font-family: "Montserrat";
+  background-image: url(/images/job/1.png);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.about-us {
+		background-image: url(/images/about/2.png);
+		min-height: 639px;
+		background-size: cover;
+		background-position-x: center;
+    @media (min-width: 640px) {
+        min-height: 750px;
+        background-size: cover;
+        background-position-x: center;
+    }
+    @media (min-width: 768px) {
+        min-height: 30rem;
+        background-size: cover;
+        background-position-x: center;
+    }
+    @media (min-width: 1024px) {
+        min-height: 765px;
+        z-index: 3;
+        background-size: cover;
+    }
+    @media (min-width: 1280px) {
+        min-height: 790px;
+        z-index: 3;
+        background-size: cover;
+    }
+}
+
+.products {
+  font-family: "Montserrat";
+  background-image: url(/images/products/4.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+#form-input {
+	background-color: #00c2b1 !important;
+}
+
+.banner_barber {
+  font-family: "Montserrat";
+  background-image: url(/images/barber/1.png);
+  background-size: cover;
+	min-height: 550px;
+  background-position-x: center;
+}
+
+footer {
+    background-color: #080F17;
+}
+
+.footer-left-line {
+	background-image: url(/images/about/footer-about.png);
+	width: 100%;
+	position: absolute;
+	min-height: 17%;
+	background-position-x: initial;
+	background-position-y: center;
+	background-repeat: no-repeat;
+}
